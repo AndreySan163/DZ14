@@ -23,38 +23,3 @@ public class Main {
         }
     }
 }
-
- import java.io.FileInputStream;
-        import java.io.FileOutputStream;
-        import java.io.IOException;
-
-/* public class ByteCopyApp {
-    public static void main(String[] args) {
-        System.out.println("Copy png file");
-
-        String sourceFilePath = "png.png";
-        String destinationFilePath = "png2.png";
-
-        try {
-            copyFile(sourceFilePath, destinationFilePath);
-            System.out.println("File is copied !");
-
-        } catch (IOException exception) {
-            exception.printStackTrace();
-        }
-    }
-
-    private static void copyFile(String sourceFilePath, String destinationFilePath) throws IOException {
-        try (FileInputStream inputStream = new FileInputStream(sourceFilePath);
-             FileOutputStream outputStream = new FileOutputStream(destinationFilePath)) {
-
-
-            int a;
-            a = inputStream.read();
-            while (a!=-1){
-                outputStream.write(a);
-                a = inputStream.read();
-            }
-        }
-    }
-}*/
